@@ -34,10 +34,3 @@ Requirement yang dibutuhkan yaitu :
 - Library Javascript
 
   **[Ajax Jquery](https://api.jquery.com/Jquery.ajax/)** untuk realtime data, **[Owl Carousel](http://owlcarousel2.github.io/OwlCarousel2/)**  untuk tampilan Carousel interakti dan Animasi tampilan menggunakan **[Aos Animation](https://michalsnik.github.io/aos/)**.
-
-## Usage
-
-- Cara penggunaan Website, Bisa cek tampilan website di link dibawah ini
-  ```
-  https://undagannikah.vercel.app/
-  ```

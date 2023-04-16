@@ -38,10 +38,10 @@
   </audio>
   <!-- lagu end -->
   <!-- popup start -->
-  <div class="d-none">
+  <!-- <div class="d-none">
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
       id="klikmodal">Launch demo modal</button>
-  </div>
+  </div> -->
   <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
       <div class="modal-content">
@@ -514,7 +514,7 @@
             </div>
           </div>
         </div>
-        
+
       </div>
     </div>
     </div>
@@ -655,6 +655,12 @@
       once: true,
     });
   </script>
+  <script>
+    $(document).ready(function(){
+        $('#exampleModal').modal('show');
+    });
+</script>
+
 </body>
 
 </html>

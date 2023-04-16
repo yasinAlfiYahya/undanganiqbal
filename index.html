@@ -658,8 +658,16 @@
   <script>
     $(document).ready(function(){
         $('#exampleModal').modal('show');
+        // Ambil parameter dari URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const nama = urlParams.get('nama');
+
+        // Isi nama ke dalam elemen HTML
+        document.getElementById('nama').textContent = nama;
+
     });
 </script>
+
 
 </body>
 
